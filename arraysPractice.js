@@ -271,7 +271,7 @@ function longer(arr1,arr2){
   function both(arr1,arr2){
     var newArr = [];
     for(var i = 0; i<arr1.length; i++){
-      if(arr2.indexOf(arr1[i]) >-1){
+      if(arr2.indexOf(arr1[i]) > -1){
         newArr.push(arr1[i]);
       }
     }
